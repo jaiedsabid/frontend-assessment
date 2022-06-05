@@ -37,7 +37,7 @@ export default function Slider() {
                     <SwiperSlide key={index}>
                         <div className="absolute bg-gray-900 inset-0 opacity-50"></div>
                         <img
-                            className="max-h-screen w-full object-cover"
+                            className="h-screen lg:max-h-screen w-full object-cover"
                             src={`/images/${image}`}
                             alt="slider"
                         />
