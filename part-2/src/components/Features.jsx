@@ -1,12 +1,6 @@
-/* This example requires Tailwind CSS v2.0+ */
 import {
-    CloudUploadIcon,
-    CogIcon,
     CreditCardIcon,
     GlobeIcon,
-    LockClosedIcon,
-    RefreshIcon,
-    ServerIcon,
     ShieldCheckIcon,
 } from '@heroicons/react/outline';
 
