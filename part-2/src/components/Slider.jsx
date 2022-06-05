@@ -42,10 +42,10 @@ export default function Slider() {
                             alt="slider"
                         />
                         <div className="absolute drop-shadow-md top-1/2 left-1/2 -translate-x-1/2 translate-y-[-50%] mx-auto">
-                            <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                            <h1 className="text-center text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
                                 Best Place to find your dream home
                             </h1>
-                            <p className="mt-6 text-xl text-indigo-100 max-w-3xl">
+                            <p className="text-center mt-6 text-xl text-cyan-100 max-w-3xl">
                                 Places that make you happy and make you feel
                                 good about yourself. Travel is a great way to
                                 experience new cultures, new people, new places,
