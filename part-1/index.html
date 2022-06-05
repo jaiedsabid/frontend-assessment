@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .dashed-border {
+            @apply border-2 border-dashed border-gray-900;
+          }
+        }
+      </style>
+</head>
+
+<body>
+    <div class="mx-auto h-screen w-11/12 flex justify-center">
+        <div id="drop-zones" class="grid grid-cols-3 gap-10 items-center justify-center">
+            <div id="drop-zone-1"
+                class="drop-zone min-w-[50px] min-h-[50px] p-2 border border-gray-900 flex flex-col gap-4">
+                <div data-color="green" class="w-10 h-10 bg-green-500" draggable="true"></div>
+                <div data-color="orange" class="w-10 h-10 bg-orange-500" draggable="true"></div>
+                <div data-color="violet" class="w-10 h-10 bg-violet-500" draggable="true"></div>
+            </div>
+            <div id="drop-zone-2"
+                class="drop-zone min-w-[50px] min-h-[50px] p-2 border border-gray-900 flex flex-col gap-4">
+                <div data-color="cyan" class="w-10 h-10 bg-cyan-500" draggable="true"></div>
+                <div data-color="green" class="w-10 h-10 bg-green-500" draggable="true"></div>
+                <div data-color="orange" class="w-10 h-10 bg-orange-500" draggable="true"></div>
+            </div>
+            <div id="drop-zone-3"
+                class="drop-zone min-w-[50px] min-h-[50px] p-2 border border-gray-900 flex flex-col gap-4">
+                <div data-color="violet" class="w-10 h-10 bg-violet-500" draggable="true"></div>
+                <div data-color="yellow" class="w-10 h-10 bg-yellow-500" draggable="true"></div>
+                <div data-color="pink" class="w-10 h-10 bg-pink-500" draggable="true"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
