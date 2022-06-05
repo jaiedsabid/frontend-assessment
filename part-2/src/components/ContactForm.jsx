@@ -1,5 +1,3 @@
-import { MailIcon, PhoneIcon } from '@heroicons/react/outline';
-
 export default function ContactForm() {
     return (
         <div className="relative bg-gradient-to-b from-white to-gray-100 pb-5">
